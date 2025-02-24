@@ -1,18 +1,66 @@
-<div class="container mx-auto p-8">
-  <h1 class="text-4xl font-bold text-center mb-8">Sobre Nosotros</h1>
-  <div class="bg-white p-8 rounded-lg shadow-md">
-    <h2 class="text-2xl font-semibold mb-4">Bienvenidos a 슈퍼-가게</h2>
-    <p class="text-gray-700 mb-4">
-      En 슈퍼-가게 nos apasiona ofrecerte lo mejor en productos de entretenimiento y tecnología. Desde las consolas de videojuegos más populares, como la PlayStation 5 y Nintendo 3DS, hasta los últimos dispositivos electrónicos, nuestro objetivo es brindarte una experiencia de compra excepcional.
-    </p>
-    <p class="text-gray-700 mb-4">
-      Nuestro equipo está comprometido con la satisfacción del cliente, asegurándonos de que encuentres los productos que amas al mejor precio posible. Valoramos la innovación y la calidad, y nos esforzamos por mantenernos al día con las últimas tendencias del mercado.
-    </p>
-    <p class="text-gray-700 mb-4">
-      Gracias por elegirnos como tu tienda de confianza. ¡Esperamos verte pronto!
-    </p>
-    <div class="flex justify-center">
-      <img class="h-48 w-48" src="https://img.icons8.com/?size=100&id=yDvdNSDLpjkn&format=png&color=000000" alt="Imagen del equipo de 슈퍼-가게">
+
+<div class="contenedor">
+  <div id="animation-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://previews.123rf.com/images/william87/william871801/william87180100033/92992408-feliz-grupo-de-amigos-tomando-una-selfie-gente-multi%C3%A9tnica-disfrutando-el-tiempo-juntos-y-riendo-en.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://i.eldiario.com.ec/fotos-manabi-ecuador/2016/01/20160121050819_encuesta-revela-que-las-personas-am.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+            <img src="https://img.freepik.com/fotos-premium/personas-que-trabajan-computadoras-oficina-ti_249974-15594.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8anVnYW5kbyUyMHZpZGVvanVlZ29zfGVufDB8fDB8fHww" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://media.gq.com.mx/photos/5f06154185180fb067835271/16:9/w_2560%2Cc_limit/GettyImages-1125585679.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
     </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+  </div>
+</div>
+
+
+<div class="container mx-auto p-8">
+  <h1 class="text-4xl font-bold text-center mb-8 text-indigo-500">Sobre Nosotros</h1>
+  <h2 class="text-2xl font-semibold mb-4 text-gray-800">Bienvenidos a 슈퍼-가게</h2>
+  <p class="text-gray-700 mb-4">
+      En 슈퍼-가게 nos apasiona ofrecerte lo mejor en productos de entretenimiento y tecnología. Desde las consolas de videojuegos más populares, como la PlayStation 5 y Nintendo 3DS, hasta los últimos dispositivos electrónicos, nuestro objetivo es brindarte una experiencia de compra excepcional.
+  </p>
+  <p class="text-gray-700 mb-4">
+      Nuestro equipo está comprometido con la satisfacción del cliente, asegurándonos de que encuentres los productos que amas al mejor precio posible. Valoramos la innovación y la calidad, y nos esforzamos por mantenernos al día con las últimas tendencias del mercado.
+  </p>
+  <p class="text-gray-700 mb-4">
+      Además, creemos en la importancia de la responsabilidad social y el impacto positivo que podemos tener en nuestras comunidades. Por ello, trabajamos con proveedores éticos y apoyamos iniciativas locales que promueven el bienestar y desarrollo sostenible.
+  </p>
+  <p class="text-gray-700 mb-4">
+      Gracias por elegirnos como tu tienda de confianza. ¡Esperamos verte pronto y ayudarte a descubrir los mejores productos en tecnología y entretenimiento!
+  </p>
+  <div class="flex justify-center">
+      <img class="h-48 w-48" src="https://img.icons8.com/?size=100&id=yDvdNSDLpjkn&format=png&color=000000" alt="Imagen del equipo de 슈퍼-가게">
   </div>
 </div>

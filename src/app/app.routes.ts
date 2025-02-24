@@ -5,7 +5,7 @@ import { ProductosComponent } from './productos/productos.component';
 
 export const routes: Routes = [
   {
-    path:'home',
+    path:'',
     component:HomeComponent
   },
   {
