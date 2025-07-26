@@ -1,10 +1,10 @@
 [
-  {"nombre":"New 3DS", "precio":12, "stock":5, "img":"https://i.postimg.cc/7P9GMBGy/jason.jpg"},
-  {"nombre": "PlayStation 5", "precio":499, "stock":10, "img": "https://i.postimg.cc/wj11zLqy/c510d571ef3a62aeebb212a5b210d736.jpg"},
-  {"nombre": "Xbox Series X", "precio":499, "stock":8, "img": "https://i.postimg.cc/zvDfcR2f/moc.jpg"},
-  {"nombre": "Nintendo Switch", "precio":299, "stock":15, "img": "https://i.postimg.cc/wT7qRzSn/lana.jpg"},
-  {"nombre": "iPhone 13", "precio":799, "stock":20, "img": "https://i.postimg.cc/XY5nx8N8/jass.jpg"},
-  {"nombre": "Samsung Galaxy S21", "precio":699, "stock":25, "img": "https://i.postimg.cc/VN1PgPVf/billet.jpg"},
-  {"nombre": "MacBook Pro", "precio":1299, "stock":5, "img": "https://i.postimg.cc/jjX0k3pz/pantuf.jpg"},
-  {"nombre": "Dell XPS 13", "precio":999, "stock":7, "img": "https://i.postimg.cc/0N9hmdzr/peluc.jpg"}
+  {"nombre":"Figura Jason", "precio":25, "stock":5, "img":"https://i.postimg.cc/7P9GMBGy/jason.jpg"},
+  {"nombre": "Mochila Scream", "precio":39, "stock":10, "img": "https://i.postimg.cc/wj11zLqy/c510d571ef3a62aeebb212a5b210d736.jpg"},
+  {"nombre": "Mochila horror", "precio":28, "stock":8, "img": "https://i.postimg.cc/zvDfcR2f/moc.jpg"},
+  {"nombre": "Figura lana", "precio":299, "stock":15, "img": "https://i.postimg.cc/wT7qRzSn/lana.jpg"},
+  {"nombre": "Viernes 13", "precio":35, "stock":20, "img": "https://i.postimg.cc/XY5nx8N8/jass.jpg"},
+  {"nombre": "Billetera", "precio":75, "stock":25, "img": "https://i.postimg.cc/VN1PgPVf/billet.jpg"},
+  {"nombre": "Pantuflas", "precio":20, "stock":5, "img": "https://i.postimg.cc/jjX0k3pz/pantuf.jpg"},
+  {"nombre": "Oso Vampiro", "precio":55, "stock":7, "img": "https://i.postimg.cc/0N9hmdzr/peluc.jpg"}
 ]
