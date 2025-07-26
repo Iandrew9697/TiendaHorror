@@ -1,10 +1,10 @@
 [
-  {"nombre":"New 3DS", "precio":12, "stock":5, "img":"https://m.media-amazon.com/images/I/61MaQXBmoSL.jpg"},
-  {"nombre": "PlayStation 5", "precio":499, "stock":10, "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeg2LI4ubpvAkCLQORzktXsUUnYY1fDHfYw&s"},
-  {"nombre": "Xbox Series X", "precio":499, "stock":8, "img": "https://cms-assets.xboxservices.com/assets/69/2e/692e7e8b-782c-4dbb-afe4-343c94aa8a4f.png?n=642227_Hero-Gallery-0_B2_857x676.png"},
-  {"nombre": "Nintendo Switch", "precio":299, "stock":15, "img": "https://store.nintendo.co.za/cdn/shop/products/SwitchRed_Blue-21_3e2c040d-07eb-4450-bcc3-bec9597ab920_714x700.png?v=1671436160"},
-  {"nombre": "iPhone 13", "precio":799, "stock":20, "img": "https://http2.mlstatic.com/D_NQ_NP_973345-MLA47781591382_102021-O.webp"},
-  {"nombre": "Samsung Galaxy S21", "precio":699, "stock":25, "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG55vAiPshEgTebJ0FpFW_xz3WuYHHeq-JUw&s"},
-  {"nombre": "MacBook Pro", "precio":1299, "stock":5, "img": "https://http2.mlstatic.com/D_NQ_NP_973875-MLM51375799524_092022-O.webp"},
-  {"nombre": "Dell XPS 13", "precio":999, "stock":7, "img": "https://i5.walmartimages.com/seo/Dell-XPS-13-Plus-13-4-Touchscreen-Notebook-Full-HD-1920-x-1200-Intel-Core-i7-12th-Gen-i7-1260P-Dodeca-core-12-Core-16-GB-Total-RAM-512-SSD-Platinum_8127a18d-6a1d-4459-a9d6-05a7738c9894.8781daccb52c6abe3f5869e8f24d03e9.jpeg"}
+  {"nombre":"New 3DS", "precio":12, "stock":5, "img":"https://i.postimg.cc/7P9GMBGy/jason.jpg"},
+  {"nombre": "PlayStation 5", "precio":499, "stock":10, "img": "https://i.postimg.cc/wj11zLqy/c510d571ef3a62aeebb212a5b210d736.jpg"},
+  {"nombre": "Xbox Series X", "precio":499, "stock":8, "img": "https://i.postimg.cc/zvDfcR2f/moc.jpg"},
+  {"nombre": "Nintendo Switch", "precio":299, "stock":15, "img": "https://i.postimg.cc/wT7qRzSn/lana.jpg"},
+  {"nombre": "iPhone 13", "precio":799, "stock":20, "img": "https://i.postimg.cc/XY5nx8N8/jass.jpg"},
+  {"nombre": "Samsung Galaxy S21", "precio":699, "stock":25, "img": "https://i.postimg.cc/VN1PgPVf/billet.jpg"},
+  {"nombre": "MacBook Pro", "precio":1299, "stock":5, "img": "https://i.postimg.cc/jjX0k3pz/pantuf.jpg"},
+  {"nombre": "Dell XPS 13", "precio":999, "stock":7, "img": "https://i.postimg.cc/0N9hmdzr/peluc.jpg"}
 ]
