@@ -1,0 +1,20 @@
+<div class="max-w-md mx-auto p-6 bg-white rounded shadow mt-10">
+    <h2 class="text-xl font-bold mb-4 text-center text-red-600">Iniciar Sesión</h2>
+    <form (ngSubmit)="iniciarSesion()" #form="ngForm">
+        <div class="mb-4">
+            <label>Email</label>
+            <input type="email" name="email" [(ngModel)]="email" required class="w-full border p-2 rounded" />
+        </div>
+
+        <div class="mb-4">
+            <label>Contraseña</label>
+            <input type="password" name="password" [(ngModel)]="password" required class="w-full border p-2 rounded" />
+        </div>
+
+        <button type="submit" class="w-full bg-red-600 text-white p-2 rounded">Entrar</button>
+    </form>
+
+    <div *ngIf="error" class="text-red-500 mt-4 text-center">
+        {{ error }}
+    </div>
+</div>
